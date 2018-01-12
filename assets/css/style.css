@@ -15,7 +15,7 @@ body{
 header{
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	background-color: #fff;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #CCAB14;
 	height: 80px;
 	text-align: right;
 	font-size: 16px;
@@ -25,7 +25,7 @@ header{
 
 a{
 	text-decoration: none;
-	color:#777;
+	color:#CCAB14;
 }
 
 a:hover{
@@ -40,7 +40,7 @@ a:hover{
 	background-color: #4aaaa5;
 	color: #fff;
 	width:300px;
-	height:80px;
+	height:79px;
 	font-size: 28px;
 	padding-top: 20px;
 	text-align: center;
@@ -59,11 +59,11 @@ a:hover{
 
 .abme, .contact, .portfolio {
 	padding: 29px;
-	border: 1px solid #ddd;
+	border: 1px solid #CCAB14;
 	width:45%;
 	float:left;
 	background-color: #fff;
-	margin-right:10%;
+	margin-right:15%;
 	margin-left: 10%;
 	margin-top: 30px;
 	margin-bottom: 30px; 
@@ -76,8 +76,8 @@ p{
 
 hr{
 	border:0;
-	border-top: .5px solid #ccc;
-	background-color:#ccc;
+	border-top: .5px solid #CCAB14;
+	background-color: #CCAB14;
 	margin-bottom: 25px;
 }
 
@@ -101,11 +101,12 @@ aside {
 	float:left;
 	background-color: #fff;
 	padding: 20px;
-	border: 1px solid #ddd;
+	border: 1px solid #CCAB14;
 	background-color: #fff;
 	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 30px;
+	margin-right: 10%;
 }
 
 
@@ -118,6 +119,10 @@ h2{
 	height: 50px;
 	width:50px;
 	text-align: center;
+}
+
+.icon:hover{
+	background-color: #666;
 }
 
 .box{
@@ -162,7 +167,7 @@ h3 {
 }
 
 .contactBox::placeholder{
-	color: #c7c7c7;
+	color: #809998;
 }
 
 .messageBox{
@@ -182,6 +187,9 @@ h3 {
 	font-size: 16px;
 }
 
+.submitButton:hover{
+	background-color: #CCAB14;
+}
 
 footer{
 	position: fixed;
