@@ -3,203 +3,263 @@
 	}
 
 body{
-	width:100%;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 16px;
-	color:#777;
-	background-image: url("../images/spiration-light.png"); 
-    background-size: cover;
+margin: 0;
+font-family: 'Raleway', sans-serif;
+
 }
 
+/*header*/
 
 header{
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	background-color: #fff;
-	border-bottom: 1px solid #FFAFC9;
-	height: 80px;
-	text-align: right;
-	font-size: 16px;
-
-
+  height: 70px;
+  z-index: 9999;
+  position: fixed;
+  top:0;
+  display: block;
+  width: 100%;
+  
+  font-family: 'Prata', serif;
+  padding: 10px 16px;
+  background-color: #0c5852; 
+  
 }
 
-a{
-	text-decoration: none;
-	color:#777777;
-}
-
-a:hover{
-	color: #FFAFC9;
-}
-
-.name {
-	float:left;
-	position: absolute;
-	left:10%;
-	top: 0;
-	background-color: #4aaaa5;
-	color: #fff;
-	width:300px;
-	height:79px;
-	font-size: 28px;
-	padding-top: 20px;
-	text-align: center;
-}
-
-.mylinks {
-	text-align: right;
-	position: absolute;
-	padding-top: 20px;
-	right: 10%;
-	top: 2%;
+#nav1{
+  padding-top: 10px;
+  z-index: 9999;
 }
 
 
-
-
-.abme, .contact, .portfolio {
-	padding: 29px;
-	border: 1px solid #ccc;
-	width:45%;
-	float:left;
-	background-color: #fff;
-	margin-right:15%;
-	margin-left: 10%;
-	margin-top: 30px;
-	margin-bottom: 30px; 
-}
-
-p{
-	margin: auto;
-	padding-left: 10px;
-}
-
-hr{
-	border:0;
-	border-top: .5px solid #FFAFC9;
-	background-color: #FFAFC9;
-	margin-bottom: 25px;
-}
-
-h1{
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-size: 28px;
-	font-weight: 700;
-	color: #4aaaa5;
-	padding-bottom: 10px;
-	padding-left: 10px;
-}
-
-.profpic{
-	width: 200px;
-	float: left;
-	padding: 20px;
-}
-
-aside {
-	width:20%;
-	float:left;
-	background-color: #fff;
-	padding: 20px;
-	border: 1px solid #ccc;
-	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	margin-right: 10%;
+#wrapper{
+  margin: 0 auto;
 }
 
 
-h2{
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-size: 18px;
-	color: #4aaaa5;
+#nav1 p,a{
+  display: inline;
+  margin-left: 10px;
+  font-size: 20px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #e5e5e5;
+
 }
-.icon{
-	height: 50px;
-	width:50px;
-	text-align: center;
+
+#nav1 a:hover{
+color:#7f7f7f;
 }
 
 .icon:hover{
-	background-color: #666;
+  background-color: #7f7f7f;
 }
 
-.box{
-	padding: 5%;
-	position: relative;
-	float:left;
-	margin: auto;
+@font-face {
+    font-family: Marigold;
+    src: url("../images/Marigold 3.WOFF");
+}
+
+.icon{
+    height: 50px;
+}
+/*home*/
+
+#home{
+  height: 810px;
 }
 
 
-h3 {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	position:absolute;
-	bottom: 20%;
-	background-color: #666;
-	color: #fff;
-	width: 150px;
-	text-align: center;
+/*#home, #about, #work{
+    position: relative;
+    z-index: -1;   
+}*/
+
+#home{
+  padding: 150px 70px 70px;
 }
 
-.stock {
-	width: 150px;
+.parallax {
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/BotGarden_BirminghamAL4132.jpg");
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
 }
 
-.photoWrapper{
-	margin:0 auto;
-	overflow:hidden;
+
+.logo{
+    font-family: 'Prata', serif;
+    color: #e5e5e5;
+    padding: 10px;
 }
 
-.contactLabel{
-	font-size:16px;
-	margin-top: 20px;
+#myName{
+  margin-top: 200px;
+  font-family: Marigold;
+  font-weight: 600;
+  font-size: 10.0rem;
+    
 }
 
-.contactBox{
-	height: 25px;
-	width: 100%;
-	padding:8px;
-	margin-top:5px;
-	margin-bottom: 10px;
-	border: 1px solid #c7c7c7;
+
+#tag{
+  margin-top: 30px;
+  font-size: 30px;
 }
 
-.contactBox::placeholder{
-	color: #809998;
+/*about*/
+#about, #work, #contact{
+  height: 810px;
 }
 
-.messageBox{
-	height: 200px;
-	width: 100%;
-	margin-bottom: 10px;
-	margin-top: 5px;
-	border-color: 1px solid #ccc;
+#about{
+  padding-top: 130px;
+  background-color: #e3ebeb;
 }
 
-.submitButton{
-	background-color: #4aaaa5;
-	color: #fff;
-	border: none;
-	height: 30px;
-	width: 100px;
-	font-size: 16px;
+#profpic,#funpic{
+  height: 200px;
 }
 
-.submitButton:hover{
-	background-color: #FFAFC9;
+h2{
+  font-family: 'Prata', serif;
+  text-align: center;
 }
 
-footer{
-	position: fixed;
-	bottom:0;
-	width: 100%;
-	clear: both;
-	text-align: center;
-	border-top: 10px solid #4aaaa5;
-	background-color: #666;
-	color: #fff;
-	height: 60px;
-	padding: 10px;
+#abme1,#abme2{
+  text-align: justify;  
+}
 
+#funpic,#profpic{
+  margin-top: 30%; 
+}
+
+/*page 3*/
+
+#work {
+  margin:0;
+  padding: 0;
+}
+
+.workrow{
+  height: 50%;
+  text-align: center;
+}
+
+.front img{
+  height: 200px;
+  margin-top: 35px;
+
+}
+
+
+
+.specs, .preview{
+  width: 150px;
+}
+
+.preview{
+  margin-right: 10px;
+}
+
+#box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8{
+  margin:0;
+  padding: 0;
+  width: 25%;
+  height: 100%;
+}
+
+#box1{
+
+  background-color: #A26769;
+}
+
+#box2{
+
+  background-color: #F7DBA7;
+  
+}
+
+#box3{
+  background-color: #CAE5FF;
+}
+
+#box4{
+  background-color: #FFCDCA;
+}
+
+#box5{
+  background-color: #CAE5FF;
+}
+
+#box6{
+  background-color:  #FFCDCA;
+}
+
+#box7{
+  background-color: #A26769;
+}
+
+#box8{
+  background-color: #F7DBA7;
+}
+
+/*page4*/
+#contact{
+  padding-top: 100px;
+  background-color: #4A445A;
+  text-align: center;
+  color:#e3ebeb;  
+}
+
+form{
+  margin-top:100px;
+}
+
+#subButton{
+  background-color: #0c5852;
+  border-color: white;
+}
+
+/*modals*/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }

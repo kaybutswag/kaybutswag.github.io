@@ -1,41 +1,252 @@
 <!DOCTYPE html>
-<html lang="us-en">
+<html lang="en-us">
 <head>
 	<meta charset="UTF-8">
-	<title>About Katharine Wagner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Katharine Wagner</title>
+
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link href="https://fonts.googleapis.com/css?family=Prata|Raleway" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
 </head>
 
 <body>
-	<header>
-		<section class="name"> Katharine Wagner </section>
-		<section class="mylinks">
-			<a href="index.html">About |</a><a href="portfolio.html"> Portfolio |</a><a href="contact.html"> Contact</a>
-		</section>
-	</header>
-	
-	
-	<section class="abme">
-			<h1>About Me</h1>
-			<hr noshade>
-			<img class=profpic src="assets/images/16836683_10200136293231927_758290365878066745_o.jpg" alt="Profile Picture">
-			<p>Oh hello. Welcome to my work in progress. If it reaches its potential and hosts all my interests, it would have a web development projects, photo gallery, travel suggestions, and reading lists. But one page at a time for now. </p><br>
+    <section class="wrapper">
+        <div id="content">
+    	   <header id="myHeader">
+                <nav id="stickynav">
+                    <div class="row">
+                        <div class="six columns" id="nav1">
+                            <a href="#home">&nbsp;Home &nbsp;</a>
+                            <a href="#about"> About &nbsp;</a>
+                            <a href="#work"> Work &nbsp;</a>
+                            <a href="#contact"> Contact</a>
+                        </div>
+                        <div class="three columns">&nbsp;</div>
+                        <div class="three columns" id="myLinks">
+                            <a href="https://www.linkedin.com/in/katharinebutts/" target="_blank"><img class="icon" src="assets/images/if_linkedin_circle_gray_107149.svg" alt="linkedin"></a>
+                            <a href="https://github.com/kaybutswag" target="_blank"><img class="icon" src="assets/images/if_github_circle_gray_107139.svg" alt="github"></a>
+                            <a href="https://www.instagram.com/kaybuttswag/" target="_blank"><img class="icon" src="assets/images/if_instagram_circle_gray_107138.svg" alt="instagram"></a>
+                        </div>
+                    </div>
+                </nav>
+    	   </header>
 
-			<p>I am originally from the deep south town of Jackson, Mississippi. I studied economics at the University of Mississippi, and decided to moved to the quasi-southern town of Austin, Texas to master the subject. For the next three and a half years, I worked in a small economics litigation shop. I worked in all stages: conducting research, converting messy data to structured data, and writing expert reports on the regressions and other analyses performed.</p><br>
+        <section class="parallax section" id="home">
+            <div class="container logo">
+                <p id="myName"> Katharine Wagner</p>
+                <p id="tag">&nbsp;Full Stack Developer | From Data to Design</p>
+            </div>
+        </section>
 
-			<p>Then here I am, a student in UT's coding bootcamp. I'm looking forward to a new, creative career as a web developer and hoping to share more projects soon.</p><br> 
-		</section>	
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                   <div class="twelve columns"> 
+                        <h2>About Me</h2>
+                   </div>
+                </div>
+                <div class="row">
+                    <div class="three columns profbox1">
+                        <img id="profpic" src="assets/images/2512CLARO-wagner_275x250.png">
+                    </div>
+                    <div class="three columns profbox2">
+                        <p id="abme1"> Before diving into the depths of web development, I was an economic litigation consultant ready to make a career change. If you're one of the many who don't understand my job title, think about hearing that a company is being sued for $3.2 million. Somebody had to calculate that number and defend it against fierce opposition. Well, that was my world. I gathered, cleaned, and analyzed that data, preparing it for the story it was going to tell.</p>
+                    </div>
+                    <div class="three columns funbox1">
+                        <p id="abme2"> Along the way, I had glimpses of powerful tools just out of my reach: data scraping, API's, and machine learning. I envied the power to create. After three and a half years, I decided I was ready to make a change. I wanted more than an enhancement of my data experience, but to see how tools I took for granted were made, from data to design. My site and projects are the products of that desire. Look around and let me know what you think! </p>
+                    </div>
+                    <div class="three columns funbox2">
+                        <img id="funpic" src="assets/images/KatAndCam.png">
+                    </div>
+                </div>
+            </div>
+        </section>
 
-		<aside> 
-			<h2>Connect with Me</h2>
-			<hr noshade>
-			<a href="https://www.linkedin.com/in/katharinebutts/" target="_blank"><img class="icon" src="assets/images/if_linkedin_313475.svg" alt="linkedin"></a>
-			<a href="https://github.com/kaybutswag" target="_blank"><img class="icon" src="assets/images/if_github_313481.svg" alt="github"></a>
-			<a href="https://www.instagram.com/kaybuttswag/" target="_blank"><img class="icon" src="assets/images/if_instagram_313477.svg" alt="instagram"></a>
-			<a href="https://stackoverflow.com/users/8908183/kaybuttswag" target="_blank"><img class="icon" src="assets/images/if_stackoverflow_313469.svg" alt="stackoverflow"></a>
-		</aside>
-	<footer> @ Copyright 2018 Katharine Wagner </footer>
+        <section id="work">
+            <div class="row workrow">
+                <div class="four columns" id="box1">
+                    <div class="flip-container1">
+                        <div class="front">
+                            <img src="assets/images/if_newspaper_1785194.svg" alt="newspaper">
+                            <h5>PolitiPurple</h5>
+                            <p>A news app that gives two sides of a story.</p>
+                            <button class="preview">Preview Site</button>
+                            <button class="specs" id="toggle1">Tech Specs</button>
+                        </div>
+                        <div class="back">
+                            <p>sample text</p>
+                            <button id="toggle1"> Return to Description</button>
+                        </div> 
+                    </div>
+                </div>
 
+                 <div class="four columns" id="box2">
+                    <div class="flip-container2">
+                        <div class="front">
+                            <img src="assets/images/if_humans_1216581.svg" alt="finder">
+                            <h5>Mentor Match</h5>
+                            <p>Find a mentor on your first day in the West Wing.</p>
+                            <button class="preview">Preview Site</button>
+                            <button class="specs" id="toggle2">Tech Specs</button>
+                        </div>
+                        <div class="back">
+                            <p>sample text</p>
+                            <button id="toggle2"> Return to Description</button>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="four columns" id="box3">
+                    <div class="flip-container3">
+                        <div class="front">
+                            <img src="assets/images/if_Burger_2272384.svg" alt="burger">
+                            <h5>Kitchen Assembly Line</h5>
+                            <p>Track your kitchen's completion of orders.</p>
+                            <button class="preview">Preview Site</button>
+                            <button class="specs" id="toggle3">Tech Specs</button>
+                        </div>
+                        <div class="back">
+                            <p>sample text</p>
+                            <button id="toggle3"> Return to Description</button>
+                        </div>
+                    </div> 
+                </div> 
+
+                <div class="four columns" id="box4">
+                    <div class="flip-container4">
+                        <div class="front">
+                            <img src="assets/images/if_Citycons_train_1342923.svg" alt="train">
+                            <h5>All Aboard!</h5>
+                            <p>See today's train schedule.</p>
+                            <button class="preview">Preview Site</button>
+                            <button class="specs" id="toggle4">Tech Specs</button>
+                        </div>
+                        <div class="back">
+                            <p>sample text</p>
+                            <button id="toggle4"> Return to Description</button>
+                        </div> 
+                    </div>
+                </div>                    
+            </div>
+            <div class="row workrow">
+                <div class="four columns" id="box5">
+                    <div class="flip-container5">
+                        <div class="front">
+                            <img src="assets/images/if_scissors_1054985.svg" alt="Rock Paper Scissors">
+                            <h5>Rock, Paper, Trash Talk</h5>
+                            <p>Come for the game. Stay for the Trash Talk.</p>
+                            <button class="preview">Preview Site</button>
+                            <button class="specs" id="toggle5">Tech Specs</button>
+                        </div>
+                        <div class="back">
+                            <p>sample text</p>
+                            <button id="toggle5"> Return to Description</button>
+                        </div> 
+                    </div>
+                </div>
+
+              <div class="four columns" id="box6">
+                    <div class="flip-container6">
+                        <div class="front">
+                            <img src="assets/images/if_Cocktail_2376769.svg" alt="Snark Off">
+                            <h5>Snark Off!</h5>
+                            <p>Choose your warrior in a battle of sass.</p>
+                            <button class="preview">Preview Site</button>
+                            <button class="specs" id="toggle6">Tech Specs</button>
+                        </div>
+                        <div class="back">
+                            <p>sample text</p>
+                            <button id="toggle6"> Return to Description</button>
+                        </div> 
+                    </div>
+                </div>
+
+              <div class="four columns" id="box7">
+                    <div class="flip-container7">
+                        <div class="front">
+                            <img src="assets/images/if_Artboard_1_1790664.svg" alt="Test">
+                            <h5>Citizenship Test</h5>
+                            <p>Could you be America's Next Citizen?</p>
+                            <button class="preview">Preview Site</button>
+                            <button class="specs" id="toggle7">Tech Specs</button>
+                        </div>
+                        <div class="back">
+                            <p>sample text</p>
+                            <button id="toggle7"> Return to Description</button>
+                        </div> 
+                    </div>
+                </div>                                                   
+
+              <div class="four columns" id="box8">
+                    <div class="flip-container8">
+                        <div class="front">
+                            <img src="assets/images/if_filmreel_1055062.svg" alt="Hangman">
+                            <h5>The Wicked Hanged Man</h5>
+                            <p>Can you save this national treasure?</p>
+                            <button class="preview">Preview Site</button>
+                            <button class="specs" id="toggle8">Tech Specs</button>
+                        </div>
+                        <div class="back">
+                            <p>sample text</p>
+                            <button id="toggle8"> Return to Description</button>
+                        </div> 
+                    </div>
+                </div> 
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Reach Out!</h2>
+                <form action="https://formspree.io/kbwagner426@gmail.com" method="POST">
+                  <div class="row">
+                    <div class="six columns">
+                      <label for="exampleNameInput">Your Name</label>
+                      <input class="u-full-width" type="text" placeholder="Bobby McGee" id="exampleNameInput">
+                    </div>
+                    <div class="six columns">
+                      <label for="exampleEmailInput">Your email</label>
+                      <input class="u-full-width" type="email" placeholder="GenericMcGeneric@gmail.com" id="exampleEmailInput">
+                    </div>
+                  </div>
+                  <label for="exampleMessage">Message</label>
+                  <textarea class="u-full-width" placeholder="Hi Katharine…" id="exampleMessage"></textarea>
+                  <label class="example-send-yourself-copy">
+                    <input type="checkbox">
+                    <span class="label-body">Send a copy to yourself</span>
+                  </label>
+                  <input class="button-primary" id="subButton" type="submit" value="Submit">
+                </form>
+             </div>
+        </section>
+        <!-- modals -->
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <div class="row">
+                <div class="eleven columns">&nbsp;</div>
+                <div class="one column close">&times;</div>
+            </div>
+
+            <div class="row">
+                <div class="six columns photodiv"></div>
+                <div class="six columns infodiv">
+                    <div class="tophalf"></div>
+                    <div class="bottomhalf">
+                        <input class="button-primary" id="launchButton" type="submit" value="Launch Website">
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </section>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+    <script src="assets/javascript/smooth.js"></script>
 </body>
 </html>
