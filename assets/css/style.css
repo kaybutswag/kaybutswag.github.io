@@ -58,6 +58,9 @@ color:#7f7f7f;
     src: url("../images/Marigold 3.WOFF");
 }
 
+#myLinks{
+  text-align: right;
+}
 .icon{
     height: 50px;
 }
@@ -78,7 +81,7 @@ color:#7f7f7f;
 }
 
 .parallax {
-    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/BotGarden_BirminghamAL4132.jpg");
+    background-image: linear-gradient(to bottom, transparent, black), url("../images/BotGarden_BirminghamAL4132.jpg");
 
     /* Set a specific height */
     height: 100%;
@@ -89,6 +92,7 @@ color:#7f7f7f;
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;
+
 }
 
 
@@ -139,6 +143,10 @@ h2{
   margin-top: 30%; 
 }
 
+.abme{
+  overflow-y: auto;
+}
+
 /*page 3*/
 
 #work {
@@ -152,19 +160,29 @@ h2{
 }
 
 .front img{
-  height: 200px;
+  width: 50%;
   margin-top: 35px;
 
 }
 
-
-
 .specs, .preview{
-  width: 150px;
+  width: 120px;
+  font-size: .8em;
+  text-align: center;
+  padding:0;
 }
 
 .preview{
-  margin-right: 10px;
+  margin-right: 12px;
+}
+
+.tophalf{
+  padding-top: 30px;
+    height: 320px;
+}
+
+.weight{
+  font-weight: 700;
 }
 
 #box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8{
@@ -173,6 +191,8 @@ h2{
   width: 25%;
   height: 100%;
 }
+
+
 
 #box1{
 
@@ -212,9 +232,19 @@ h2{
 /*page4*/
 #contact{
   padding-top: 100px;
-  background-color: #4A445A;
   text-align: center;
-  color:#e3ebeb;  
+
+    background-image: linear-gradient(to top, transparent, black), url("../images/leaves.jpg");
+
+    color:#e3ebeb;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*width:100%;*/
+
+ 
 }
 
 form{
@@ -262,4 +292,28 @@ form{
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+.photodiv img{
+  margin-top: 2%;
+  margin-left: 10%;
+  width: 80%;
+  border:1px solid #0c5852;
+  box-shadow: 5px 5px 10px #999999;
+}
+
+.infodiv h2{
+  text-align: left;
+}
+
+.infodiv p a{
+  margin-left: 0;
+  color: #7f7f7f;
+  font-size: 15px;
+}
+
+#launchButton{
+  color: white;
+  border: none;
+  background-color: #0c5852
 }

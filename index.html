@@ -7,7 +7,7 @@
 
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
-    <link href="https://fonts.googleapis.com/css?family=Prata|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Prata|Raleway:400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -26,8 +26,7 @@
                             <a href="#work"> Work &nbsp;</a>
                             <a href="#contact"> Contact</a>
                         </div>
-                        <div class="three columns">&nbsp;</div>
-                        <div class="three columns" id="myLinks">
+                        <div class="sixcolumns" id="myLinks">
                             <a href="https://www.linkedin.com/in/katharinebutts/" target="_blank"><img class="icon" src="assets/images/if_linkedin_circle_gray_107149.svg" alt="linkedin"></a>
                             <a href="https://github.com/kaybutswag" target="_blank"><img class="icon" src="assets/images/if_github_circle_gray_107139.svg" alt="github"></a>
                             <a href="https://www.instagram.com/kaybuttswag/" target="_blank"><img class="icon" src="assets/images/if_instagram_circle_gray_107138.svg" alt="instagram"></a>
@@ -50,7 +49,7 @@
                         <h2>About Me</h2>
                    </div>
                 </div>
-                <div class="row">
+                <div class="row abme">
                     <div class="three columns profbox1">
                         <img id="profpic" src="assets/images/2512CLARO-wagner_275x250.png">
                     </div>
@@ -74,13 +73,18 @@
                         <div class="front">
                             <img src="assets/images/if_newspaper_1785194.svg" alt="newspaper">
                             <h5>PolitiPurple</h5>
-                            <p>A news app that gives two sides of a story.</p>
-                            <button class="preview">Preview Site</button>
-                            <button class="specs" id="toggle1">Tech Specs</button>
+                            <p>A News app with two sides</p>
+                            <button class="preview" value="0">Preview Site</button>
+                            <button class="specs toggle1">Tech Specs</button>
                         </div>
                         <div class="back">
-                            <p>sample text</p>
-                            <button id="toggle1"> Return to Description</button>
+                            <div class="tophalf">
+                                <h5>Techy Details</h5>
+                                <p><span class="weight">Design:</span> Materialize Design, CSS3, HTML5, Canvas Charts</p>
+                                <p><span class="weight">Front-End Logic:</span> Javascript, J-Query, AJAX</p>
+                                <p><span class="weight">Data:</span> NewsAPI, WebhouseAPI (free trial)</p>
+                            </div>
+                            <button class="toggle1 toggleb"> Return to Description</button>
                         </div> 
                     </div>
                 </div>
@@ -90,13 +94,18 @@
                         <div class="front">
                             <img src="assets/images/if_humans_1216581.svg" alt="finder">
                             <h5>Mentor Match</h5>
-                            <p>Find a mentor on your first day in the West Wing.</p>
-                            <button class="preview">Preview Site</button>
-                            <button class="specs" id="toggle2">Tech Specs</button>
+                            <p>Find Your West Wing Mentor</p>
+                            <button class="preview" value="1">Preview Site</button>
+                            <button class="specs toggle2">Tech Specs</button>
                         </div>
                         <div class="back">
-                            <p>sample text</p>
-                            <button id="toggle2"> Return to Description</button>
+                            <div class="tophalf">
+                                <h5>Techy Details</h5>
+                                <p><span class="weight">Design:</span> Twitter Bootstrap, CSS3, HTML5 </p>
+                                <p><span class="weight">Front-End Logic:</span> Javascript, J-Query</p>
+                                <p><span class="weight">Back-End:</span> Node, NPM Body-Parser, NPM-Express</p>
+                            </div>
+                            <button class="toggle2 toggleb"> Return to Description</button>
                         </div> 
                     </div>
                 </div>
@@ -105,14 +114,20 @@
                     <div class="flip-container3">
                         <div class="front">
                             <img src="assets/images/if_Burger_2272384.svg" alt="burger">
-                            <h5>Kitchen Assembly Line</h5>
-                            <p>Track your kitchen's completion of orders.</p>
-                            <button class="preview">Preview Site</button>
-                            <button class="specs" id="toggle3">Tech Specs</button>
+                            <h5>Order Up</h5>
+                            <p>Track your kitchen's orders</p>
+                            <button class="preview" value="2">Preview Site</button>
+                            <button class="specs toggle3">Tech Specs</button>
                         </div>
                         <div class="back">
-                            <p>sample text</p>
-                            <button id="toggle3"> Return to Description</button>
+                            <div class="tophalf">
+                                <h5>Techy Details</h5>
+                                <p><span class="weight">Design:</span> Handlebars, CSS3, HTML5 </p>
+                                <p><span class="weight">Front-End Logic:</span> Javascript, J-Query</p>
+                                <p><span class="weight">Server-Side:</span> Node, NPM-mysql, NPM Body-Parser, NPM-Express</p>
+                                <p><span class="weight">Notes:</span> This app uses MVC pattern and JAWS DB to deploy onto Heroku.</p>
+                            </div>
+                            <button class="toggle3 toggleb"> Return to Description</button>
                         </div>
                     </div> 
                 </div> 
@@ -123,12 +138,17 @@
                             <img src="assets/images/if_Citycons_train_1342923.svg" alt="train">
                             <h5>All Aboard!</h5>
                             <p>See today's train schedule.</p>
-                            <button class="preview">Preview Site</button>
-                            <button class="specs" id="toggle4">Tech Specs</button>
+                            <button class="preview" value="3">Preview Site</button>
+                            <button class="specs toggle4">Tech Specs</button>
                         </div>
                         <div class="back">
-                            <p>sample text</p>
-                            <button id="toggle4"> Return to Description</button>
+                            <div class="tophalf">
+                                <h5>Techy Details</h5>
+                                <p><span class="weight">Design:</span> Materialize, CSS3, HTML5 </p>
+                                <p><span class="weight">Front-End Logic:</span> Javascript, J-Query, MomentJS</p>
+                                <p><span class="weight">Server-Side:</span>Hosted by Firebase.</p>
+                            </div>
+                            <button class="toggle4 toggleb"> Return to Description</button>
                         </div> 
                     </div>
                 </div>                    
@@ -137,15 +157,20 @@
                 <div class="four columns" id="box5">
                     <div class="flip-container5">
                         <div class="front">
-                            <img src="assets/images/if_scissors_1054985.svg" alt="Rock Paper Scissors">
-                            <h5>Rock, Paper, Trash Talk</h5>
-                            <p>Come for the game. Stay for the Trash Talk.</p>
-                            <button class="preview">Preview Site</button>
-                            <button class="specs" id="toggle5">Tech Specs</button>
+                            <img src="assets/images/if_sport-mode_439849.svg" alt="Kinnections">
+                            <h5>Kinnections</h5>
+                            <p>Coming Soon: Match with a Work-OutBuddy</p>
+                            <button class="preview" value="4">Preview Site</button>
+                            <button class="specs toggle5">Tech Specs</button>
                         </div>
                         <div class="back">
-                            <p>sample text</p>
-                            <button id="toggle5"> Return to Description</button>
+                            <div class="tophalf">
+                                <h5>Techy Details</h5>
+                                <p><span class="weight">Design:</span>Handlebars,CSS3, HTML5 </p>
+                                <p><span class="weight">Front-End Logic:</span> Javascript, J-Query</p>
+                                <p><span class="weight">Server-Side:</span>Node: NPM Express, NPM Sequlize</p>
+                            </div>
+                            <button class="toggle5 toggleb"> Return to Description</button>
                         </div> 
                     </div>
                 </div>
@@ -156,12 +181,17 @@
                             <img src="assets/images/if_Cocktail_2376769.svg" alt="Snark Off">
                             <h5>Snark Off!</h5>
                             <p>Choose your warrior in a battle of sass.</p>
-                            <button class="preview">Preview Site</button>
-                            <button class="specs" id="toggle6">Tech Specs</button>
+                            <button class="preview" value="5">Preview Site</button>
+                            <button class="specs toggle6">Tech Specs</button>
                         </div>
                         <div class="back">
-                            <p>sample text</p>
-                            <button id="toggle6"> Return to Description</button>
+                            <div class="tophalf">
+                                <h5>Techy Details</h5>
+                                <p><span class="weight">Design:</span> CSS3, HTML5 </p>
+                                <p><span class="weight">Front-End Logic:</span> Javascript, J-Query</p>
+                                <p><span class="weight">Notes:</span>Deployed on GitHub</p>
+                            </div>
+                            <button class="toggle6 toggleb"> Return to Description</button>
                         </div> 
                     </div>
                 </div>
@@ -172,12 +202,17 @@
                             <img src="assets/images/if_Artboard_1_1790664.svg" alt="Test">
                             <h5>Citizenship Test</h5>
                             <p>Could you be America's Next Citizen?</p>
-                            <button class="preview">Preview Site</button>
-                            <button class="specs" id="toggle7">Tech Specs</button>
+                            <button class="preview" value="6">Preview Site</button>
+                            <button class="specs toggle7">Tech Specs</button>
                         </div>
                         <div class="back">
-                            <p>sample text</p>
-                            <button id="toggle7"> Return to Description</button>
+                            <div class="tophalf">
+                                <h5>Techy Details</h5>
+                                <p><span class="weight">Design:</span> CSS3, HTML5 </p>
+                                <p><span class="weight">Front-End Logic:</span> Javascript, J-Query</p>
+                                <p><span class="weight">Additional Packages:</span>Timers</p>
+                            </div>
+                            <button class="toggle7 toggleb"> Return to Description</button>
                         </div> 
                     </div>
                 </div>                                                   
@@ -186,14 +221,19 @@
                     <div class="flip-container8">
                         <div class="front">
                             <img src="assets/images/if_filmreel_1055062.svg" alt="Hangman">
-                            <h5>The Wicked Hanged Man</h5>
+                            <h5>Wicker Hanged Man</h5>
                             <p>Can you save this national treasure?</p>
-                            <button class="preview">Preview Site</button>
-                            <button class="specs" id="toggle8">Tech Specs</button>
+                            <button class="preview" value="7">Preview Site</button>
+                            <button class="specs toggle8">Tech Specs</button>
                         </div>
                         <div class="back">
-                            <p>sample text</p>
-                            <button id="toggle8"> Return to Description</button>
+                            <div class="tophalf">
+                                <h5>Techy Details</h5>
+                                <p><span class="weight">Design:</span> CSS3, HTML5 </p>
+                                <p><span class="weight">Front-End Logic:</span> Javascript</p>
+                                <p><span class="weight">Notes:</span>Deployed on GitHub</p>
+                            </div>
+                            <button class="toggle8 toggleb"> Return to Description</button>
                         </div> 
                     </div>
                 </div> 
@@ -234,13 +274,13 @@
 
             <div class="row">
                 <div class="six columns photodiv"></div>
-                <div class="six columns infodiv">
-                    <div class="tophalf"></div>
-                    <div class="bottomhalf">
-                        <input class="button-primary" id="launchButton" type="submit" value="Launch Website">
-                    </div>
-                </div>
+                <div class="six columns infodiv"></div>
             </div>
+
+            <div class="row">
+                <div class="twelve columns">&nbsp;</div>
+            </div>
+
           </div>
         </div>
     </div>
