@@ -1,0 +1,29 @@
+<svg width="140" height="140" xmlns="http://www.w3.org/2000/svg">
+
+ <title/>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <circle fill="#f2cf61" id="svg_1" r="64" cy="70" cx="70" class="cls-1"/>
+  <rect fill="#525354" id="svg_2" y="22" x="39" width="64" ry="1" rx="1" height="98" class="cls-2"/>
+  <rect fill="#ffffff" id="svg_3" y="21" x="38" width="64" ry="1" rx="1" height="98" class="cls-3"/>
+  <rect fill="#525354" id="svg_4" y="32.79" x="62.9" width="32" ry="1" rx="1" height="4" class="cls-2"/>
+  <rect fill="#525354" id="svg_5" y="41" x="62.9" width="20" ry="1" rx="1" height="4" class="cls-2"/>
+  <rect fill="#d7dadb" id="svg_6" y="34.89" x="47.68" width="8" ry="1" rx="1" height="8" class="cls-4"/>
+  <path fill="#52b1b1" id="svg_7" d="m49.38,38.74l-1.52,-1.52a1.09,1.09 0 0 0 -1.54,0l-0.91,0.91a1.09,1.09 0 0 0 0,1.54l4,4a1.09,1.09 0 0 0 1.54,0l1.65,-1.67l5.35,-5.35a1.09,1.09 0 0 0 0,-1.54l-0.95,-0.95a1.09,1.09 0 0 0 -1.54,0l-4.58,4.58a1.09,1.09 0 0 1 -1.5,0z" class="cls-5"/>
+  <rect fill="#525354" id="svg_8" y="53.46" x="62.9" width="32" ry="1" rx="1" height="4" class="cls-2"/>
+  <rect fill="#525354" id="svg_9" y="61.67" x="62.9" width="20" ry="1" rx="1" height="4" class="cls-2"/>
+  <rect fill="#d7dadb" id="svg_10" y="55.56" x="47.68" width="8" ry="1" rx="1" height="8" class="cls-4"/>
+  <path fill="#52b1b1" id="svg_11" d="m49.38,59.4l-1.52,-1.52a1.09,1.09 0 0 0 -1.54,0l-0.91,0.91a1.09,1.09 0 0 0 0,1.54l4,4a1.09,1.09 0 0 0 1.54,0l1.68,-1.68l5.35,-5.35a1.09,1.09 0 0 0 0,-1.54l-0.98,-0.93a1.09,1.09 0 0 0 -1.54,0l-4.54,4.57a1.09,1.09 0 0 1 -1.54,0z" class="cls-5"/>
+  <rect fill="#525354" id="svg_12" y="74.12" x="62.9" width="32" ry="1" rx="1" height="4" class="cls-2"/>
+  <rect fill="#525354" id="svg_13" y="82.33" x="62.9" width="20" ry="1" rx="1" height="4" class="cls-2"/>
+  <rect fill="#d7dadb" id="svg_14" y="76.23" x="47.68" width="8" ry="1" rx="1" height="8" class="cls-4"/>
+  <path fill="#52b1b1" id="svg_15" d="m49.38,80.07l-1.52,-1.52a1.09,1.09 0 0 0 -1.54,0l-0.91,0.91a1.09,1.09 0 0 0 0,1.54l4,4a1.09,1.09 0 0 0 1.54,0l1.68,-1.68l5.35,-5.35a1.09,1.09 0 0 0 0,-1.54l-0.98,-0.94a1.09,1.09 0 0 0 -1.54,0l-4.58,4.58a1.09,1.09 0 0 1 -1.5,0z" class="cls-5"/>
+  <rect fill="#525354" id="svg_16" y="94.79" x="62.9" width="32" ry="1" rx="1" height="4" class="cls-2"/>
+  <rect fill="#525354" id="svg_17" y="103" x="62.9" width="20" ry="1" rx="1" height="4" class="cls-2"/>
+  <rect fill="#d7dadb" id="svg_18" y="96.89" x="47.68" width="8" ry="1" rx="1" height="8" class="cls-4"/>
+ </g>
+</svg>

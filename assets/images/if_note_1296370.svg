@@ -1,0 +1,25 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+
+ <title/>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect fill="#c75c5c" id="svg_1" width="512" ry="256" rx="256" height="512" class="cls-1"/>
+  <rect fill="#5c4b51" id="svg_2" y="126.33" x="69.39" width="373.21" ry="19.8" rx="19.8" height="275.33" class="cls-2"/>
+  <rect fill="#a7a37e" id="svg_3" y="141.56" x="84.12" width="342.24" height="245.04" class="cls-3"/>
+  <rect fill="#fffad5" id="svg_4" y="141.56" x="84.12" width="342.24" height="231.62" class="cls-4"/>
+  <rect fill="#f5e5c0" id="svg_5" y="141.56" x="84.12" width="171.12" height="231.62" class="cls-5"/>
+  <polygon fill="#fffad5" id="svg_6" points="255.25 141.56 124.42 81.42 124.42 333.82 255.25 373.17 255.25 141.56" class="cls-4"/>
+  <path fill="#ffd34e" id="svg_7" d="m267.39,107.23l3.61,0a12.14,12.14 0 0 1 12.14,12.14l0,173.63a0,0 0 0 1 0,0l-27.89,0a0,0 0 0 1 0,0l0,-173.63a12.14,12.14 0 0 1 12.14,-12.14z" class="cls-6"/>
+  <polygon fill="#ffd34e" id="svg_8" points="255.25 293.05 255.25 307.11 269.2 297.43 283.15 307.11 283.15 293.05 255.25 293.05" class="cls-6"/>
+  <path fill="#f26101" id="svg_9" d="m325.31,228.21l24.49,-63.78l9.09,0l26.11,63.78l-9.61,0l-7.44,-19.32l-26.67,0l-7,19.32l-8.97,0zm18.4,-26.21l21.62,0l-6.66,-17.66q-3,-8 -4.52,-13.23a81.29,81.29 0 0 1 -3.44,12.18l-7,18.71z" class="cls-7"/>
+  <rect fill="#a7a37e" id="svg_10" y="243.46" x="294.77" width="120.78" height="7.74" class="cls-3"/>
+  <rect fill="#a7a37e" id="svg_11" y="262.43" x="294.77" width="120.78" height="7.74" class="cls-3"/>
+  <rect fill="#a7a37e" id="svg_12" y="282.17" x="294.77" width="120.78" height="7.74" class="cls-3"/>
+  <rect fill="#a7a37e" id="svg_13" y="301.47" x="294.77" width="120.78" height="7.74" class="cls-3"/>
+  <rect fill="#a7a37e" id="svg_14" y="319.4" x="294.77" width="120.78" height="7.74" class="cls-3"/>
+ </g>
+</svg>
