@@ -4,7 +4,7 @@ var modalContent=
     "img":"assets/images/kinections.png",
     "p":"User Friendly Demo in Progress: We have created an app that matches individuals looking for a work out buddy. Users can fill out their information, review potential matches, chat, and make plans!",
     "a":"https://kinections-demo.herokuapp.com/"
-  },{"h2":"Mentor Match",
+  },{"h2":"NoFret",
     "h3":"React Developer on Three Member Team",
     "img":"assets/images/guitar.png",
     "p":"Coming Soon: This was made with guitar beginners in mind, to learn guitar chords, sample them, and see how tabs are written. User can also create own projects by writing tabs.",
