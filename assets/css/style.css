@@ -25,7 +25,7 @@ header{
 }
 
 #nav1{
-  padding-top: 10px;
+  padding-top: 12px;
   z-index: 9999;
 }
 
@@ -62,7 +62,7 @@ color:#7f7f7f;
   text-align: right;
 }
 .icon{
-    height: 50px;
+    height: 2em;
 }
 /*home*/
 
@@ -103,17 +103,17 @@ color:#7f7f7f;
 }
 
 #myName{
-  margin-top: 200px;
+  margin-top: 28vh;
   font-family: Marigold;
   font-weight: 600;
-  font-size: 10.0rem;
+  font-size: 7.0vw;
     
 }
 
 
 #tag{
-  margin-top: 30px;
-  font-size: 30px;
+  margin-top: 3vw;
+  font-size: 3vw;
 }
 
 /*about*/
@@ -127,7 +127,7 @@ color:#7f7f7f;
 }
 
 #profpic,#funpic{
-  height: 200px;
+  height: 193px;
 }
 
 h2{
@@ -136,7 +136,7 @@ h2{
 }
 
 #abme1,#abme2{
-  text-align: justify;  
+  text-align: justify;
 }
 
 #funpic,#profpic{
@@ -167,18 +167,30 @@ h2{
 
 .specs, .preview{
   width: 120px;
-  font-size: .8em;
+/*  font-size: .8vw;*/
+  border-color: #767676;
   text-align: center;
-  padding:0;
+  padding-left:5px;
+  padding-right:5px;
+/*  bottom: 2%;*/
 }
 
 .preview{
-  margin-right: 12px;
+  margin-right:5%;
 }
+
 
 .tophalf{
   padding-top: 30px;
-    height: 320px;
+  height: 320px;
+}
+.tophalf1{
+  height: 320px;
+}
+
+.tophalf1 p{
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 .weight{
@@ -196,37 +208,37 @@ h2{
 
 #box1{
 
-  background-color: #A26769;
+  background-color: #9fc9e0;
 }
 
 #box2{
 
-  background-color: #F7DBA7;
+  background-color: #d27c7c;
   
 }
 
 #box3{
-  background-color: #CAE5FF;
+  background-color: #bbdfbf;
 }
 
 #box4{
-  background-color: #FFCDCA;
+  background-color: #f7e2a0;
 }
 
 #box5{
-  background-color: #CAE5FF;
+  background-color: #bbdfbf;
 }
 
 #box6{
-  background-color:  #FFCDCA;
+  background-color:  #f7e2a0;
 }
 
 #box7{
-  background-color: #A26769;
+  background-color: #9fc9e0;
 }
 
 #box8{
-  background-color: #F7DBA7;
+  background-color: #d27c7c;
 }
 
 /*page4*/
@@ -317,3 +329,173 @@ form{
   border: none;
   background-color: #0c5852
 }
+
+/*media queries*/
+
+@media only screen and (max-width: 1180px) {
+    #abme1,#abme2{
+    text-align: left;
+    font-size: 1.3vw;
+  }
+  #profpic,#funpic{
+      margin-top: 40%;
+    }
+  .specs, .preview{
+  width: 100px;
+  font-size: 10px;
+}
+.preview{
+  margin-right: 2%;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+    #myName{
+      margin-top: 30vw;
+    }
+
+    #abmeCont{
+      width:100% !important;
+    }
+
+    #profpic,#funpic{
+      height: 18vw;
+    }
+
+    #abme1,#abme2{
+      font-size: 1.6vw;
+  }
+
+    .tophalf1{
+    height: 280px;
+}
+
+}
+
+@media only screen and (max-width: 890px) {
+
+  .specs, .preview{
+    width: 120px;
+    font-size: 11px;
+  }
+  .preview{
+    margin-right: 0;
+  }
+
+}
+
+@media only screen and (max-width: 820px) {
+    #abme1,#abme2{
+      font-size: 1.7vw;
+  }
+
+  #profpic,#funpic{
+      margin-top: 57%;
+    }
+}
+
+
+
+@media only screen and (max-width: 777px) {
+    #myName{
+      font-size: 7.5vw;
+      margin-top: 350px;
+    }
+    .logo{
+      padding:0;
+    }
+
+    #box1, #box2, #box3, #box4{
+      width: 50%;
+}
+  .workrow2{
+    display:none;
+  }
+
+  .tophalf1{
+    height: 320px;
+}
+  .preview{
+    margin-right: 2%;
+  }
+
+}
+@media only screen and (max-width: 680px) {
+    .container{
+      width:100% !important;
+    }
+    #myName{
+      font-size: 7.6vw;
+    }
+
+    #abme1,#abme2{
+      font-size: 1.8vw;
+    }
+
+    #profpic,#funpic{
+        margin-top: 60%;
+      }
+
+}
+
+@media only screen and (max-width: 622px) {
+    #abme1,#abme2{
+      font-size: 1.9vw;
+    }
+
+    #profpic,#funpic{
+        margin-top: 65%;
+    }
+
+    .tophalf1{
+      height: 280px;
+  }
+    .preview{
+      margin-right: 0;
+    }
+    .specs, .preview{
+    width: 130px;
+    font-size: 11px;
+  }
+
+}
+
+
+@media only screen and (max-width: 549px) {
+    #myHeader{
+      height:130px;
+    }
+
+    #nav1{
+      margin-bottom: 10px;
+    }
+
+    #myLinks, #nav1{
+      text-align: center;
+    }
+
+    #profpic,#funpic{
+        margin-top: 0;
+    }
+
+    #profpic{
+      margin-left: 18%;
+      margin-right:20%;
+    }
+
+    #abmeCont{
+      width:85% !important;
+    }
+
+    #abme1,#abme2{
+      margin-top:10%;
+      text-align: justify;
+      font-size: 2.8vw;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #abme1,#abme2{
+      font-size: 3vw;
+    }
+  }
