@@ -34,7 +34,7 @@ var modalContent=
     "img":"assets/images/test.png",
     "p":"This quiz features questions from the actual United States Citizenship Test. The app has timers and keeps track of your score.",
     "a":"https://kaybutswag.github.io/TriviaGame/"
-  },{"h2":"Wicked Hanged Man",
+  },{"h2":"Wicker-Hangman",
     "h3":"Personal Project",
     "img":"assets/images/hangman.png",
     "p":"Nicolas Cage's career has been in trouble. He doesn't know if he has any fans left. Prove you know his filmography and keep him from the gallows. (Graphic Images not included).",
@@ -163,15 +163,17 @@ function fillModal(number){
 }
 
 });
-var mq1 = window.matchMedia( "(max-width: 550px)" );
-  if (mq1.matches){  
-    $(".abme").empty();
-    $(".abme").append("<div class='profbox2'<p id='abme1'> Before diving into the depths of web development, I worked as an economic litigation consultant ready to make a career change. Translation: I transformed messy data into an argument through analyses and regressions. Along the way, I had glimpses of powerful tools just out of my reach: data scraping, API's, and machine learning. I envied the ability to create. After three and a half years, I decided I was ready to make a change.</p></div><div class='profbox1 funbox2'><img id='profpic' src='assets/images/2512CLARO-wagner_275x250.png'><img id='funpic' src='assets/images/KatAndCam.png'></div><div class='funbox1'><p id='abme2'> Beyond an enhancement of my data experience, I wanted to understand the tools I took for granted, from <span style= 'font-weight: 700;'>Data to Design</span>. My projects are the products of that desire. I primarily code in Javascript, recently focusing on React. Also in my toolbox, JQuery, HTML, CSS, Mongo, Python, SAS and Handlebars. As of now, I have more Frontend experience, but adding to my Backend resume regularly. Look around and let me know what you think! </p></div>");
-  } 
 
-var mq2 = window.matchMedia( "(min-width: 551px)" );
-  if (mq2.matches){  
-    $(".abme").empty();
-    $(".abme").append("<div class='three columns profbox1'><img id='profpic' src='assets/images/2512CLARO-wagner_275x250.png'></div><div class='three columns profbox2'><p id='abme1'> Before diving into the depths of web development, I worked as an economic litigation consultant ready to make a career change. Translation: I transformed messy data into an argument through analyses and regressions. Along the way, I had glimpses of powerful tools just out of my reach: data scraping, API's, and machine learning. I envied the ability to create. After three and a half years, I decided I was ready to make a change.</p></div><div class='three columns funbox1'><p id='abme2'> Beyond an enhancement of my data experience, I wanted to understand the tools I took for granted, from <span style= 'font-weight: 700;'>Data to Design</span>. My projects are the products of that desire. I primarily code in Javascript, recently focusing on React. Also in my toolbox, JQuery, HTML, CSS, Mongo, Python, SAS and Handlebars. As of now, I have more Frontend experience, but adding to my Backend resume regularly. Look around and let me know what you think! </p></div><div class='three columns funbox2'><img id='funpic' src='assets/images/KatAndCam.png'></div>");
-  } 
+$(window).on('resize', function(){
+      var win = $(this); 
+      if (win.width() <= 550) { 
+        $(".abme").empty();
+        $(".abme").append("<div class='profbox2'<p id='abme1'> Before diving into the depths of web development, I worked as an economic litigation consultant ready to make a career change. Translation: I transformed messy data into an argument through analyses and regressions. Along the way, I had glimpses of powerful tools just out of my reach: data scraping, API's, and machine learning. I envied the ability to create. After three and a half years, I decided I was ready to make a change.</p></div><div class='profbox1 funbox2'><img id='profpic' src='assets/images/2512CLARO-wagner_275x250.png'><img id='funpic' src='assets/images/KatAndCam.png'></div><div class='funbox1'><p id='abme2'> Beyond an enhancement of my data experience, I wanted to understand the tools I took for granted, from <span style= 'font-weight: 700;'>Data to Design</span>. My projects are the products of that desire. I primarily code in Javascript, recently focusing on React. Also in my toolbox, JQuery, HTML, CSS, Mongo, Python, SAS and Handlebars. As of now, I have more Frontend experience, but adding to my Backend resume regularly. Look around and let me know what you think! </p></div>");
+      }
+
+      if (win.width() > 550) { 
+        $(".abme").empty();
+        $(".abme").append("<div class='three columns profbox1'><img id='profpic' src='assets/images/2512CLARO-wagner_275x250.png'></div><div class='three columns profbox2'><p id='abme1'> Before diving into the depths of web development, I worked as an economic litigation consultant ready to make a career change. Translation: I transformed messy data into an argument through analyses and regressions. Along the way, I had glimpses of powerful tools just out of my reach: data scraping, API's, and machine learning. I envied the ability to create. After three and a half years, I decided I was ready to make a change.</p></div><div class='three columns funbox1'><p id='abme2'> Beyond an enhancement of my data experience, I wanted to understand the tools I took for granted, from <span style= 'font-weight: 700;'>Data to Design</span>. My projects are the products of that desire. I primarily code in Javascript, recently focusing on React. Also in my toolbox, JQuery, HTML, CSS, Mongo, Python, SAS and Handlebars. As of now, I have more Frontend experience, but adding to my Backend resume regularly. Look around and let me know what you think! </p></div><div class='three columns funbox2'><img id='funpic' src='assets/images/KatAndCam.png'></div>");
+      } 
+});
 
