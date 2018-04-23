@@ -7,8 +7,8 @@ var modalContent=
   },{"h2":"NoFret",
     "h3":"React Developer on Three Member Team",
     "img":"assets/images/guitar.png",
-    "p":"Coming Soon: This was made with guitar beginners in mind, to learn guitar chords, sample them, and see how tabs are written. User can also create own projects by writing tabs.",
-    "a":"#"
+    "p":"Made with beginner guitar players in mind, user can learn and sample multiple scales, write tabs, and listen to tabs. A full stack application that allows signed in users can create, delete, and edit tabs.",
+    "a":"http://nofret.herokuapp.com/"
   },{"h2":"My Book Club",
     "h3":"Personal Project: Full Stack",
     "img":"assets/images/book.png",
@@ -131,6 +131,14 @@ $(".close").on("click", function() {
     $("#myModal").css("display","none");
 });
 
+$('#form').submit(function() {
+    if ($.trim($("#email").val()) === "" || $.trim($("#name").val()) === "") {
+        $("#alertBox").append('Name and Email are required fields.');
+        return false;
+    }
+});
+
+
 var modal = document.getElementById('myModal');
 
 window.onclick = function(event) {
@@ -144,16 +152,9 @@ function fillModal(number){
   myImg.attr({"src": modalContent[number].img,"alt":modalContent[number].h2});
 
 
-  if(number===1){
-    var myBlock=$("<div>")
-  myBlock.append("<h2>"+modalContent[number].h2+"</h2><h3>"+modalContent[number].h3+"</h3><p>"+modalContent[number].p+"</p>"+
-    "<a class='button' id='launchButton' type='submit' href="+modalContent[number].a+" target='_blank'>Coming Soon!</a>");
-  }
-  else{
   var myBlock=$("<div>")
   myBlock.append("<h2>"+modalContent[number].h2+"</h2><h3>"+modalContent[number].h3+"</h3><p>"+modalContent[number].p+"</p>"+
     "<a class='button' id='launchButton' type='submit' href="+modalContent[number].a+" target='_blank'>Launch Website</a>");
-}
 
 
 

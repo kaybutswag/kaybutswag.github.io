@@ -46,11 +46,13 @@ header{
 }
 
 #nav1 a:hover{
-color:#7f7f7f;
+color:white;
+font-size: 21px;
 }
 
 .icon:hover{
-  background-color: #7f7f7f;
+  background-color: #042320;
+  height: 2.1em;
 }
 
 @font-face {
@@ -91,7 +93,12 @@ color:#7f7f7f;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width:100%;
+    /*width:100%;*/
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    overflow: hidden;
 
 }
 
@@ -100,7 +107,16 @@ color:#7f7f7f;
     font-family: 'Prata', serif;
     color: #e5e5e5;
     padding: 10px;
+
+    animation-name: example;
+    animation-duration: 8s;
 }
+
+@keyframes example {
+    from {opacity: 0;}
+    to {opacity: : 1;}
+}
+
 
 #myName{
   margin-top: 28vh;
@@ -254,7 +270,11 @@ h2{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /*width:100%;*/
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    overflow: hidden;
 
  
 }
@@ -266,6 +286,11 @@ form{
 #subButton{
   background-color: #0c5852;
   border-color: white;
+  color:white;
+}
+
+#alertBox{
+  color:#d27c7c;
 }
 
 /*modals*/

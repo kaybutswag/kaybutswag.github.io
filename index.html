@@ -258,25 +258,26 @@
         <section id="contact">
             <div class="container">
                 <h2>Reach Out!</h2>
-                <form action="https://formspree.io/kbwagner426@gmail.com" method="POST">
+                <form action="https://formspree.io/kbwagner426@gmail.com" method="POST" id="form">
                   <div class="row">
                     <div class="six columns">
                       <label for="exampleNameInput">Your Name</label>
-                      <input class="u-full-width" type="text" placeholder="Creed Bratton" id="exampleNameInput">
+                      <input class="u-full-width" type="text" name="name" placeholder="Creed Bratton" id="exampleNameInput">
                     </div>
                     <div class="six columns">
                       <label for="exampleEmailInput">Your email</label>
-                      <input class="u-full-width" type="email" placeholder="creedthoughts@netscape.com" id="exampleEmailInput">
+                      <input class="u-full-width" type="text" name="email" placeholder="creedthoughts@netscape.com" id="exampleEmailInput">
                     </div>
                   </div>
                   <label for="exampleMessage">Message</label>
-                  <textarea class="u-full-width" placeholder="Hi Katharine!" id="exampleMessage"></textarea>
+                  <textarea class="u-full-width" type="text" name="message" placeholder="Hi Katharine!" id="exampleMessage"></textarea>
                   <label class="example-send-yourself-copy">
                     <input type="checkbox">
                     <span class="label-body">Send a copy to yourself</span>
                   </label>
-                  <input class="button-primary" id="subButton" type="submit" value="Submit">
+                  <button id="subButton" type="submit">Submit</button>
                 </form>
+                <p id="alertBox"></p>
              </div>
         </section>
         <!-- modals -->
