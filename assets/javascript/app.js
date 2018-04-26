@@ -132,9 +132,16 @@ $(".close").on("click", function() {
 });
 
 $('#form').submit(function() {
-    if ($.trim($("#email").val()) === "" || $.trim($("#name").val()) === "") {
+    if ($.trim($("#exampleNameInput").val()) === "" || $.trim($("#exampleEmailInput").val()) === "") {
         $("#alertBox").append('Name and Email are required fields.');
         return false;
+    }
+    else{
+      $("#alertBox").html("&nbsp;");
+      $("#exampleNameInput").val()="";
+      $("#exampleEmailInput").val()="";
+      $("#exampleMessage").val()="";
+      return true;
     }
 });
 
