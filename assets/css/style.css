@@ -122,7 +122,7 @@ font-size: 21px;
 
 
 #tag{
-  margin-top: 3vw;
+  margin-top: 5%;
   font-size: 3vw;
 }
 
@@ -170,7 +170,7 @@ h2{
 }
 
 .front img{
-  width: 50%;
+  height: 50%;
   margin-top: 35px;
 
 }
@@ -193,14 +193,17 @@ h2{
 .tophalf{
   padding-top: 30px;
   height: 320px;
+
 }
 .tophalf1{
   height: 320px;
+  margin-bottom: 2%;
 }
 
 .tophalf1 p{
   padding-left: 1%;
   padding-right: 1%;
+
 }
 
 .weight{
@@ -209,7 +212,7 @@ h2{
 
 #box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8{
   margin:0;
-  padding: 0;
+  padding: 0 1%;
   width: 25%;
   height: 100%;
 }
@@ -249,6 +252,10 @@ h2{
 
 #box8{
   background-color: #d27c7c;
+}
+
+.toggleb{
+  border-color: #767676;
 }
 
 /*page4*/
@@ -350,6 +357,18 @@ form{
 }
 
 /*media queries*/
+
+@media only screen and (min-width: 1432px) {
+ #myName{
+  font-size: 102px;
+    
+}
+
+
+#tag{
+  font-size: 48px;
+}
+}
 
 @media only screen and (max-width: 1180px) {
     #abme1,#abme2{
@@ -505,7 +524,7 @@ form{
       height: 280px;
   }
     .preview{
-      margin-right: 0;
+      margin-left: 0;
     }
     .specs, .preview{
     width: 130px;
