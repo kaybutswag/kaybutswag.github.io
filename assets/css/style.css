@@ -350,10 +350,10 @@ form{
   font-size: 15px;
 }
 
-#launchButton{
+#launchButton0,#launchButton1,#launchButton2{
   color: white;
   border: none;
-  background-color: #0c5852
+  background-color: #0C5852;
 }
 
 /*media queries*/

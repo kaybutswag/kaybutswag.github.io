@@ -2,8 +2,9 @@ var modalContent=
   [{"h2":"Kinnections",
     "h3":"Back-End Developer on Four Member Team",
     "img":"assets/images/kinections.png",
-    "p":"User Friendly Demo in Progress: We have created an app that matches individuals looking for a work out buddy. Users can fill out their information, review potential matches, chat, and make plans!",
-    "a":"https://kinections-demo.herokuapp.com/"
+    "p":"We created an app that matches individuals looking for work out buddies. Users can fill out their information and see potential matches based on activities, location, age, and gender. Then chat and make plans!<br><br>We have created two versions of the application. The 'Demo' version (Recommended) will log you in as a user that has been active and already has matches and chat history. The 'Original' version simulates what the application would feel like to a new user. Unfortunately we cannot guarantee you will have any potential matches in this version.",
+    "a":"https://kinections-demo.herokuapp.com/",
+    "a2":"https://kinections.herokuapp.com/"
   },{"h2":"NoFret",
     "h3":"React Developer on Three Member Team",
     "img":"assets/images/guitar.png",
@@ -157,11 +158,18 @@ window.onclick = function(event) {
 function fillModal(number){
   var myImg=$("<img>");
   myImg.attr({"src": modalContent[number].img,"alt":modalContent[number].h2});
-
-
   var myBlock=$("<div>")
+
+if (number===0){
   myBlock.append("<h2>"+modalContent[number].h2+"</h2><h3>"+modalContent[number].h3+"</h3><p>"+modalContent[number].p+"</p>"+
-    "<a class='button' id='launchButton' type='submit' href="+modalContent[number].a+" target='_blank'>Launch Website</a>");
+    "<a class='button' id='launchButton1' type='submit' href="+modalContent[number].a+" target='_blank'>Launch Demo</a>"+
+  "<a class='button' id='launchButton2' type='submit' href="+modalContent[number].a2+" target='_blank'>Launch Original</a>");
+}
+else{
+  myBlock.append("<h2>"+modalContent[number].h2+"</h2><h3>"+modalContent[number].h3+"</h3><p>"+modalContent[number].p+"</p>"+
+    "<a class='button' id='launchButton0' type='submit' href="+modalContent[number].a+" target='_blank'>Launch Website</a>");
+}
+  
 
 
 
