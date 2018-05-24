@@ -82,6 +82,7 @@ font-size: 21px;
 
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
   
 
     -webkit-background-size: cover;
@@ -92,7 +93,6 @@ font-size: 21px;
     width:100%;
 
     background-size: cover !important;
-
 
 }
 
@@ -464,6 +464,10 @@ form{
 }
 
 @media only screen and (max-width: 723px) {
+
+  .parallax{
+    background-attachment: scroll;
+  }
   
   #modalrow{
     text-align: center;
