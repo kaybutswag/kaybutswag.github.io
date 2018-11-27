@@ -17,7 +17,7 @@ var modalContent=
     "a":"https://murmuring-reef-18520.herokuapp.com/"
   },{"h2":"PolitiPurple",
     "h3":"Front End Developer on Four Member Team.",
-    "img":"assets/images/news.png",
+    "img":"assets/images/news.jpg",
     "p":"Our team wanted to build an app to make readers think about their news sources. A user can search a term and select one of 12 sources. The app will search news from the last 30 days and return most relevant story from user's source and a source with an opposite lean. The sources have been paired based on <a target='_blank' href='http://www.allgeneralizationsarefalse.com/the-chart-version-3-0-what-exactly-are-we-reading/'>Media Bias Chart.</a> The app also shows readers how many likes the article received on Facebook (Note: Webhose API was used for likes and has a limited amount of hits).",
     "a":"https://kaybutswag.github.io/PolitiPurple/"
   },{"h2":"All Aboard!",
