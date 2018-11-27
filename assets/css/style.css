@@ -5,14 +5,10 @@
 body{
 margin: 0;
 font-family: 'Raleway', sans-serif;
-overscroll-behavior: none;
+
 }
 
 /*header*/
-
-#wrapper{
-  margin: 0 auto;
-}
 
 header{
   height: 70px;
@@ -24,8 +20,7 @@ header{
   
   font-family: 'Prata', serif;
   padding: 10px 16px;
-  background-color: rgb(46, 145, 122); 
-  
+  background-color: rgb(46, 145, 122);  
 }
 
 #nav1{
@@ -34,32 +29,29 @@ header{
 }
 
 
-
+#wrapper{
+  margin: 0 auto;
+}
 
 
 #nav1 p,a{
-  display: inline-block;
+  display: inline;
   margin-left: 10px;
   font-size: 20px;
   line-height: 20px;
   text-decoration: none;
   color: #e5e5e5;
-}
 
-#nav1 a{
-  transition: all .4s;
 }
 
 #nav1 a:hover{
-  color:white;
-  transform: scale(1.1);
+color:white;
+font-size: 21px;
 }
-.icon{
-  transition: all .4s; 
-}
+
 .icon:hover{
-  /* background-color: #042320; */
-  transform: scale(1.2);
+  background-color: #042320;
+  height: 2.1em;
 }
 
 @font-face {
@@ -90,6 +82,7 @@ header{
         transparent,
          rgb(33, 41, 39)),
         url("../images/BotGarden_BirminghamAL4132.jpg");
+
 
     background-position: center;
     background-repeat: no-repeat;
@@ -164,20 +157,8 @@ h2{
   margin-top: 30%; 
 }
 
-#profpic{
-  margin-left: 10%; 
-}
-
 .abme{
   overflow-y: auto;
-}
-
-.abme_link{
-  text-decoration: none;
-  color: #3884ae;
-  font-size: inherit;
-  margin-left: 0;
-  font-weight: 700;
 }
 
 /*page 3*/
@@ -286,22 +267,20 @@ h2{
   padding-top: 100px;
   text-align: center;
 
-    background-image: linear-gradient(to top, transparent, #172A3A), url("../images/leaves.jpg");
+    background-image: linear-gradient(to top, transparent, black), url("../images/leaves.jpg");
 
     color:#e3ebeb;
     /* Create the parallax scrolling effect */
-
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-  
+    background-size: cover;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    
-
     background-size: cover !important;
+
 }
 
 form{
