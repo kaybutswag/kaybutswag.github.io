@@ -5,7 +5,7 @@
 body{
 margin: 0;
 font-family: 'Raleway', sans-serif;
-overscroll-behavior: none;
+background-color: #172A3A;
 }
 
 /*header*/
